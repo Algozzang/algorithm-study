@@ -44,6 +44,7 @@ public class 지한얼 {
 			for(int c=i; c<i+2;c++) {
 				if(str.charAt(i-1)!=str.charAt(c)) num++;
 			}
+			
 	}
 		return num;
 	}
