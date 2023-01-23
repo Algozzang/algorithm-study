@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
  
-public class Solution {
+public class seonghun {
  
     static int T;
     static String number;

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map.Entry;
  
-public class Solution {
+public class seonghun {
  
     static int T, N, answer;
     static int[] queenPos;

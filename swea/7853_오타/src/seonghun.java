@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.stream.Stream;
  
-public class Solution {
+public class seonghun {
  
     static long answer;
     static int T;

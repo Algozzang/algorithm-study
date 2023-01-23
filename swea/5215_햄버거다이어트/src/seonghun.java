@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
  
-public class Solution {
+public class seonghun {
  
     static int answer;
     static int T, N, L;

@@ -3,7 +3,7 @@ import java.util.Stack;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Main {
+public class seonghun {
 
 	static int n, number;
 	static boolean possible;
