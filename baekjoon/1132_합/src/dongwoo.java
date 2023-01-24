@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class dongwoo {
 
 	public static void main(String args[]) {
-		// 시작 00:43
+		// 시작 00:43 끝 02:24
 		Scanner sc = new Scanner(System.in);
 		int T = sc.nextInt();
 		sc.nextLine();
