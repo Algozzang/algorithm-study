@@ -1,1 +1,1 @@
-# algorithm-study
+# SSAFY Algorithm Study
