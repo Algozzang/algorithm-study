@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
-public class Main {
+public class seonghun {
 
 	static int N;
 	static int[] values;
