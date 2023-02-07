@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>1780_종이의개수</name>
+	<name>2805_나무자르기</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1675728430620</id>
+			<id>1675728430645</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
