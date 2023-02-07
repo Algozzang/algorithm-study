@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>1780_종이의개수</name>
+	<name>1747_소수&amp;팰린드롬</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1675728430620</id>
+			<id>1675728430615</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
