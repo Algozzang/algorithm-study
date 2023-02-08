@@ -1,1 +1,350 @@
-# SSAFY Algorithm Study
+# 🙋🏻‍♀️ SSAFY Algorithm Study 🙋🏻‍♂️
+
+## 🔥 Member
+
+- **고동우**
+- **김민주**
+- **김성훈**
+- **김혜경**
+- **지한얼**
+
+<br>
+
+## 🎯 Goal of Study
+
+- SW 역량 테스트 B형 합격을 위한 **알고리즘 역량 강화**
+- 기업 코딩테스트 경험을 통해 **취업 역량 강화**
+
+<br>
+
+## 📝 Rules
+
+1. **매주 월요일 인당 문제 1개씩 선정**
+   - 난이도는 백준 실버2 이상, SWEA D3 이상
+2. **매주 일요일까지 문제 풀이 후 소스 코드 업로드**
+   - 각자 `Fork`한 개인 저장소에서 `Commit`
+   - 해당 주차의 문제를 모두 `Commit`하고 `Pull Request` 
+3. **매주 월요일 오프라인 스터디 활동 진행**
+   - 지난 주차의 문제에 대한 **코드리뷰** 진행
+   - 문제에서 다루어진 알고리즘 **복습**
+   - 다른 스터디원의 풀이 방식으로도 문제 풀기
+   - 기본은 오프라인으로하며, 불가능할 경우 화상 회의로 진행
+4. **모바일 어플로 학습량 체크**
+   - 알고리즘 이외의 공부에도 타이머 시간 적용 가능 (과제, 시험 준비 등)
+   - 일주일 10시간 미달일 경우 벌금!😙
+ 5. **중꺾마...**
+
+<br>
+
+## 🔗 Problem Sites
+
+> [Baekjoon Online Judge](https://www.acmicpc.net)
+> [SW Expert Academy](https://www.swexpertacademy.com)
+> [Programmers](https://school.programmers.co.kr/learn/challenges)
+
+
+<br>
+
+## ✏️ Solutions
+
+<table>
+  
+  
+  <tr>
+    <th align="center" width="120">NO.</th>
+    <th align="center" width="250">Problem</th>
+    <th align="center" width="250">Solution</th>
+    <th align="center" width="220">Remarks</th>
+  </tr>
+
+  <tr>
+    <td align="center" colspan="4">Week 1</td>
+  </tr>
+  <tr>
+    <td align="center">[SWEA] 1244</td>
+    <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=3&passFilterYn=Y&contestProbId=AV15Khn6AN0CFAYD&categoryId=AV15Khn6AN0CFAYD&categoryType=CODE&problemTitle=%EC%B5%9C%EB%8C%80+%EC%83%81%EA%B8%88&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=P&pageSize=10&pageIndex=1">최대 상금</a></td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/1244_%EC%B5%9C%EB%8C%80%EC%83%81%EA%B8%88/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/1244_%EC%B5%9C%EB%8C%80%EC%83%81%EA%B8%88/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/1244_%EC%B5%9C%EB%8C%80%EC%83%81%EA%B8%88/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/1244_%EC%B5%9C%EB%8C%80%EC%83%81%EA%B8%88/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/1244_%EC%B5%9C%EB%8C%80%EC%83%81%EA%B8%88/src/%EC%A7%80%ED%95%9C%EC%96%BC.java">한얼</a>
+    </td>
+  	<td align="center">Greedy, Brute force</td>
+  </tr>
+  <tr>
+    <td align="center">[SWEA] 2806</td>
+    <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=3&contestProbId=AV7GKs06AU0DFAXB&categoryId=AV7GKs06AU0DFAXB&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=3&pageSize=10&pageIndex=14">N-Queen</a></td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/2806_N-Queen/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/2806_N-Queen/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/2806_N-Queen/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/2806_N-Queen/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/2806_N-Queen/src/%EC%A7%80%ED%95%9C%EC%96%BC.java">한얼</a>
+    </td>
+  	<td align="center">DFS</td>
+  </tr>
+  <tr>
+    <td align="center">[SWEA] 5215</td>
+    <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=3&contestProbId=AWT-lPB6dHUDFAVT&categoryId=AWT-lPB6dHUDFAVT&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=3&pageSize=10&pageIndex=10">햄버거 다이어트</a></td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/5215_%ED%96%84%EB%B2%84%EA%B1%B0%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/5215_%ED%96%84%EB%B2%84%EA%B1%B0%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/5215_%ED%96%84%EB%B2%84%EA%B1%B0%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/5215_%ED%96%84%EB%B2%84%EA%B1%B0%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/5215_%ED%96%84%EB%B2%84%EA%B1%B0%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8/src/%EC%A7%80%ED%95%9C%EC%96%BC.java">한얼</a>
+    </td>
+  	<td align="center">0/1 knapsack</td>
+  </tr>
+  <tr>
+    <td align="center">[SWEA] 7853</td>
+    <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=3&contestProbId=AWttUKkq5hQDFASy&categoryId=AWttUKkq5hQDFASy&categoryType=CODE&problemTitle=&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=3&pageSize=10&pageIndex=7">오타</a></td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/7853_%EC%98%A4%ED%83%80/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/7853_%EC%98%A4%ED%83%80/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/7853_%EC%98%A4%ED%83%80/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/7853_%EC%98%A4%ED%83%80/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/swea/7853_%EC%98%A4%ED%83%80/src/%EC%A7%80%ED%95%9C%EC%96%BC.java">한얼</a>
+    </td>
+  	<td align="center">String</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 1874</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/8e381519-a96a-4b9d-a665-2fb3d75a455b/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/1874"> 스택 수열</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1874_%EC%8A%A4%ED%83%9D%EC%88%98%EC%97%B4/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1874_%EC%8A%A4%ED%83%9D%EC%88%98%EC%97%B4/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1874_%EC%8A%A4%ED%83%9D%EC%88%98%EC%97%B4/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1874_%EC%8A%A4%ED%83%9D%EC%88%98%EC%97%B4/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1874_%EC%8A%A4%ED%83%9D%EC%88%98%EC%97%B4/src/%EC%A7%80%ED%95%9C%EC%96%BC.java">한얼</a>
+    </td>
+  	<td align="center">Stack</td>
+  </tr>
+  
+  <tr>
+    <td align="center" colspan="4">Week 2</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 1107</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/7e4130db-cc39-4482-8377-f7f6b56749e9/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/1107">리모컨</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1107_%EB%A6%AC%EB%AA%A8%EC%BB%A8/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1107_%EB%A6%AC%EB%AA%A8%EC%BB%A8/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1107_%EB%A6%AC%EB%AA%A8%EC%BB%A8/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1107_%EB%A6%AC%EB%AA%A8%EC%BB%A8/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1107_%EB%A6%AC%EB%AA%A8%EC%BB%A8/src/%EC%A7%80%ED%95%9C%EC%96%BC_1107.java">한얼</a>
+    </td>
+  	<td align="center">DFS</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 1132</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/0e9f3164-d764-42cf-951f-ec3e3aa08fff/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/1132">합</a></td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1132_%ED%95%A9/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1132_%ED%95%A9/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1132_%ED%95%A9/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1132_%ED%95%A9/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1132_%ED%95%A9/src/%EC%A7%80%ED%95%9C%EC%96%BC1132.java">한얼</a>
+    </td>
+  	<td align="center">Greedy</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 2644</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/8e381519-a96a-4b9d-a665-2fb3d75a455b/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/2644">촌수계산</a></td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2644_%EC%B4%8C%EC%88%98%EA%B3%84%EC%82%B0/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2644_%EC%B4%8C%EC%88%98%EA%B3%84%EC%82%B0/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2644_%EC%B4%8C%EC%88%98%EA%B3%84%EC%82%B0/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2644_%EC%B4%8C%EC%88%98%EA%B3%84%EC%82%B0/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2644_%EC%B4%8C%EC%88%98%EA%B3%84%EC%82%B0/src/%EC%A7%80%ED%95%9C%EC%96%BC_%EC%B4%8C%EC%88%98.java">한얼</a>
+    </td>
+  	<td align="center">Graph, DFS</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 3190</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/ce7dcad5-ffaa-4d9b-9a5c-f91ff1969c41/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/3190">뱀</a></td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/3190_%EB%B1%80/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/3190_%EB%B1%80/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/3190_%EB%B1%80/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/3190_%EB%B1%80/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/3190_%EB%B1%80/src/%EC%A7%80%ED%95%9C%EC%96%BC_%EB%B1%80.java">한얼</a>
+    </td>
+  	<td align="center">Implementation</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 9251</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/7e4130db-cc39-4482-8377-f7f6b56749e9/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/9251">LCS</a></td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/9251_LCS/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/9251_LCS/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/9251_LCS/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/9251_LCS/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/9251_LCS/src/%EC%A7%80%ED%95%9C%EC%96%BC_9251.java">한얼</a>
+    </td>
+  	<td align="center">DP</td>
+  </tr>
+
+  <tr>
+    <td align="center" colspan="4">Week 3</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 1068</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/7e4130db-cc39-4482-8377-f7f6b56749e9/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/1068">트리</a></td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1068_%ED%8A%B8%EB%A6%AC/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1068_%ED%8A%B8%EB%A6%AC/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1068_%ED%8A%B8%EB%A6%AC/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1068_%ED%8A%B8%EB%A6%AC/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1068_%ED%8A%B8%EB%A6%AC/src/%EC%A7%80%ED%95%9C%EC%96%BC%ED%8A%B8%EB%A6%AC.java">한얼</a>
+    </td>
+  	<td align="center">Tree, Graph</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 1780</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/8e381519-a96a-4b9d-a665-2fb3d75a455b/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/1780">종이의 개수</a></td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1780_%EC%A2%85%EC%9D%B4%EC%9D%98%EA%B0%9C%EC%88%98/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1780_%EC%A2%85%EC%9D%B4%EC%9D%98%EA%B0%9C%EC%88%98/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1780_%EC%A2%85%EC%9D%B4%EC%9D%98%EA%B0%9C%EC%88%98/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1780_%EC%A2%85%EC%9D%B4%EC%9D%98%EA%B0%9C%EC%88%98/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1780_%EC%A2%85%EC%9D%B4%EC%9D%98%EA%B0%9C%EC%88%98/src/%EC%A7%80%ED%95%9C%EC%96%BC%EC%A2%85%EC%9D%B41780.java">한얼</a>
+    </td>
+  	<td align="center">Recursion</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 2014</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/3352bbd8-08b1-4e5d-a4e3-f27f88c2501c/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/2014">소수의 곱</a></td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2014_%EC%86%8C%EC%88%98%EC%9D%98%EA%B3%B1/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2014_%EC%86%8C%EC%88%98%EC%9D%98%EA%B3%B1/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2014_%EC%86%8C%EC%88%98%EC%9D%98%EA%B3%B1/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2014_%EC%86%8C%EC%88%98%EC%9D%98%EA%B3%B1/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2014_%EC%86%8C%EC%88%98%EC%9D%98%EA%B3%B1/src/%EC%A7%80%ED%95%9C%EC%96%BC%EC%86%8C%EC%88%98%EC%9D%98%EA%B3%B1.java">한얼</a>
+    </td>
+  	<td align="center">Priority queue, Math</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 2470</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/7e4130db-cc39-4482-8377-f7f6b56749e9/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/2470">두 용액</a></td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2470_%EB%91%90%EC%9A%A9%EC%95%A1/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2470_%EB%91%90%EC%9A%A9%EC%95%A1/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2470_%EB%91%90%EC%9A%A9%EC%95%A1/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2470_%EB%91%90%EC%9A%A9%EC%95%A1/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2470_%EB%91%90%EC%9A%A9%EC%95%A1/src/%EC%A7%80%ED%95%9C%EC%96%BC%EB%91%90%EC%9A%A9%EC%95%A12470.java">한얼</a>
+    </td>
+  	<td align="center">Sorting, Two pointer</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 14699</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/7e4130db-cc39-4482-8377-f7f6b56749e9/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/14699">관악산 등산</a></td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/14699_%EA%B4%80%EC%95%85%EC%82%B0%EB%93%B1%EC%82%B0/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/14699_%EA%B4%80%EC%95%85%EC%82%B0%EB%93%B1%EC%82%B0/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/14699_%EA%B4%80%EC%95%85%EC%82%B0%EB%93%B1%EC%82%B0/src/seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/14699_%EA%B4%80%EC%95%85%EC%82%B0%EB%93%B1%EC%82%B0/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/14699_%EA%B4%80%EC%95%85%EC%82%B0%EB%93%B1%EC%82%B0/src/%EC%A7%80%ED%95%9C%EC%96%BC%EA%B4%80%EC%95%85%EC%82%B0.java">한얼</a>
+    </td>
+  	<td align="center">Graph, DP</td>
+  </tr>
+  
+  <tr>
+    <td align="center" colspan="4">Week 4</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 1747</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/2f96f32c-c9f6-4d81-bba4-ee484c2300e2/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/1747">소수&팰린드롬</a></td>
+    <td align="center">
+        <a href="">동우</a>
+        <a href="">민주</a>
+        <a href="">성훈</a>
+        <a href="">혜경</a>
+        <a href="">한얼</a>
+    </td>
+  	<td align="center">Sieve of Eratosthenes</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 1916</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/7e4130db-cc39-4482-8377-f7f6b56749e9/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/1916">최소 비용 구하기</a></td>
+    <td align="center">
+        <a href="">동우</a>
+        <a href="">민주</a>
+        <a href="">성훈</a>
+        <a href="">혜경</a>
+        <a href="">한얼</a>
+    </td>
+  	<td align="center">Graph, Dijkstra</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 2805</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/8e381519-a96a-4b9d-a665-2fb3d75a455b/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/2805">나무 자르기</a></td>
+    <td align="center">
+        <a href="">동우</a>
+        <a href="">민주</a>
+        <a href="">성훈</a>
+        <a href="">혜경</a>
+        <a href="">한얼</a>
+    </td>
+  	<td align="center">Binary search</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 2879</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/3c50c0d0-ce09-403c-88bb-f1b08420a697/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/2879">코딩은 예쁘게</a></td>
+    <td align="center">
+        <a href="">동우</a>
+        <a href="">민주</a>
+        <a href="">성훈</a>
+        <a href="">혜경</a>
+        <a href="">한얼</a>
+    </td>
+  	<td align="center">Greedy</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 17404</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/ce7dcad5-ffaa-4d9b-9a5c-f91ff1969c41/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/17404">RGB거리 2</a></td>
+    <td align="center">
+        <a href="">동우</a>
+        <a href="">민주</a>
+        <a href="">성훈</a>
+        <a href="">혜경</a>
+        <a href="">한얼</a>
+    </td>
+  	<td align="center">DP</td>
+  </tr>
+  
+</table>
