@@ -31,7 +31,7 @@ public class HyeKyoung {
 			else if (sum < m) high = mid - 1;
 			else break;
 		}
-		//if(sum < m) mid--;
+		if(sum < m) mid--;
 		System.out.println(mid);
 	}
 
