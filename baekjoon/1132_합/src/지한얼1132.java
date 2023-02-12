@@ -3,35 +3,35 @@ import java.util.*;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
-public class ÁöÇÑ¾ó1132 {
-	static Set<String> check=new HashSet<>(); // ¸Ç¾ÕÀÎÁö 1³ªÀÌÁø Ã¥
+public class ì§€í•œì–¼1132 {
+	static Set<String> check=new HashSet<>(); //
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt(); //ÀüÃ¼
+		int n = sc.nextInt(); //
 		long answer=0l;
 		Map<String, Long> map = new HashMap<>();
 		
-		for(int i=0;i<n;i++) { //°ª ³Ö±â
+		for(int i=0;i<n;i++) { //
 			String st = sc.next();
 			long num=1;
 			for(int j=st.length();j>0;j--,num*=10) {
-				if(j==1) { //Ã¹°ªÈ®ÀÎ 
+				if(j==1) { //
 					check.add(st.substring(j-1, j));
 				}
-				if(!map.containsKey(st.substring(j-1, j))) { //Å°È®ÀÎ ¾ø´Ù¸é
+				if(!map.containsKey(st.substring(j-1, j))) { //
 					map.put(st.substring(j-1, j), num);
 					continue;
-				} //ÀÖ´Ù¸é
+				} //ï¿½Ö´Ù¸ï¿½
 				map.put(st.substring(j-1, j),map.get(st.substring(j-1, j))+num);
 			}
 		}
 		
 		if(map.size()<10) {
 			int num=9;
-			List<Map.Entry<String, Long>> entries =  // map.entrysetÀ» ½ºÆ®¸²À¸·Î º¯°æÈÄ Å°°ª Á¤·ÄÇÏ°í ¸®½ºÆ®·Î ¹İÈ¯.
+			List<Map.Entry<String, Long>> entries =  // 
 					map.entrySet().stream()
-						.sorted((o1,o2)-> o2.getValue().compareTo(o1.getValue()) )//³»¸²Â÷¼ø
+						.sorted((o1,o2)-> o2.getValue().compareTo(o1.getValue()) )//
 						.collect(Collectors.toList());
 		for(Map.Entry<String, Long> entry: entries) {
 			
@@ -42,25 +42,25 @@ public class ÁöÇÑ¾ó1132 {
 		} else {
 			int num=0;
 			Stack<Long> s = new Stack<>();
-			List<Map.Entry<String, Long>> entries =  // map.entrysetÀ» ½ºÆ®¸²À¸·Î º¯°æÈÄ Å°°ª Á¤·ÄÇÏ°í ¸®½ºÆ®·Î ¹İÈ¯.
+			List<Map.Entry<String, Long>> entries =  // 
 					map.entrySet().stream()
-						.sorted((o1,o2)-> o1.getValue().compareTo(o2.getValue()) )//¿À¸§Â÷¼ø
+						.sorted((o1,o2)-> o1.getValue().compareTo(o2.getValue()) )//
 						.collect(Collectors.toList());
 			
 			for(Map.Entry<String, Long> entry: entries) {
 				
-				if(check.contains(entry.getKey())&&num==0) {//Ã¹¹øÂ°ÀÌ°í 0ÀÌ¸é
-					s.add(entry.getValue()); // ½ºÅÃ¿¡ °ª³Ö±â
+				if(check.contains(entry.getKey())&&num==0) {//
+					s.add(entry.getValue()); // 
 					continue;
 				} 
 				answer+=entry.getValue()*num;
-				if(num==0) num=s.size()+1; //Ã³À½ÀÌ ¾Æ´Ï°í 0ÀÌ¶ó¸é
-				else num++; //¾Æ³ª Áõ¸»
+				if(num==0) num=s.size()+1; //
+				else num++; //ã„´
 				}
 			int n1=s.size();
-			while(!s.isEmpty()) {//¸¶¹«¸® ½ºÅÃ¿¡ ÀÖ´Â°Å
+			while(!s.isEmpty()) {//
 				answer+=s.pop()*n1;
-				n1--; //¾Æ³ª Áø¤±Â¥ ¤§¤§¤¡ ¤¤¤··¯³Ñ ¶ó¤Ã ÇÏ.... numÀ¸·Î ºÃ½À´Ï´Ù.
+				n1--; //
 			}
 		}
 		System.out.println(answer);
