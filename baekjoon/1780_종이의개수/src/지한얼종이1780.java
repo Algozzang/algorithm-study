@@ -4,37 +4,46 @@ import java.util.*;
 
 
 public class 지한얼종이1780 {
-		static List<String>[] arr;
-		static int[] answer;
+		static String[][] arr; // 종이
+		static int[] answer; //답
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n=Integer.valueOf(br.readLine());
-		arr = new List[n];
+		arr = new String[n][];
 		answer=new int[3];
 		for(int i=0;i<n;i++) { // 담기
-			arr[i] = Arrays.asList(br.readLine().split(" "));
+			arr[i] = br.readLine().split(" ");
 		}
 		papercut(0, 0, n);
 		for(int i=0;i<3;i++)
 		System.out.println(answer[i]);
 	}
 	static void papercut(int row,int col,int n) {
-		String firs =  arr[row].get(col); // 첫 자리
-		for(int i=0; i<n;i++) {
-			for(int j=0; j<n; j++) {
-				if(!firs.equals(arr[i+row].get(j+col))) { //다르다면
-					for(int a=0;a<3;a++) {	// 3등분할
-						for(int b=0;b<3;b++) {
-							papercut(n/3*a+row,n/3*b+col,n/3);
-						}
-					}
-					return;
+		String firs =  arr[row][col]; // 첫 자리
+		boolean ispass=true;
+		
+		if(n==1) {
+			check(firs);
+			return;
+		}
+		// 전체 확인
+		naga:for(int i=row; i<n+row;i++) {
+			for(int j=col; j<n+col; j++) {
+				if(!firs.equals(arr[i][j])) { 
+					ispass=false;
+					break naga;
 				}
 			}
 		}
-		// 같다면 
-		check(firs);
-		return;		
+		if(!ispass) {
+			for(int i=0; i<3; i++) {
+				for(int j=0; j<3; j++) {
+					papercut(row+(n/3)*i, col+(n/3)*j, n/3);
+				}
+			}
+		} else {
+			check(firs);
+		}
 	}
 	static void check(String s) {
 		if(s.equals("-1")) {

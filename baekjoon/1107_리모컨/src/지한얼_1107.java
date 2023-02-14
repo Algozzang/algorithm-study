@@ -2,21 +2,21 @@
 //import java.util.Scanner;
 //import java.util.Set;
 //
-//public class ÁöÇÑ¾ó_1107 {
+//public class ï¿½ï¿½ï¿½Ñ¾ï¿½_1107 {
 //	static int answer,N,M;
 //	static String N_str;
 //	static Set<Integer> broken;
 //	public static void main(String[] args) {
 //		Scanner sc = new Scanner(System.in);
-//		N = sc.nextInt(); // Ã£´Â ¹øÈ£
-//		N_str =N+""; // ¹®ÀÚ ¸¸µé±â
-//		M = sc.nextInt(); //°íÀå³­ ¼ö
-//		broken = new HashSet<Integer>(); //°íÀå ¹øÈ£
+//		N = sc.nextInt(); // Ã£ï¿½ï¿½ ï¿½ï¿½È£
+//		N_str =N+""; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
+//		M = sc.nextInt(); //ï¿½ï¿½ï¿½å³­ ï¿½ï¿½
+//		broken = new HashSet<Integer>(); //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£
 //		for(int i=0; i<M; i++) {
 //			broken.add(sc.nextInt());
 //		}
 //		
-//		answer= Math.abs(N-100); // ÇöÀç À§Ä¡¿¡¼­ Ã£´Â °Å •û±â
+//		answer= Math.abs(N-100); // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ Ã£ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 //		dfs(0, 0, 0);
 //		
 //		System.out.println(answer);
@@ -24,11 +24,11 @@
 //	}
 //	public static void dfs(int now,int depth, int cnt) {
 //		
-//		if(now==N) { //°°À¸¸é ³ª°¡
+//		if(now==N) { //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 //			if(answer>cnt) answer=cnt;
 //			return;
 //		} 
-//		if(N_str.length()==depth) { //ÀÚ¸®¼ö ²ËÃ¤¿ì¸é ³ª°¡
+//		if(N_str.length()==depth) { //ï¿½Ú¸ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¤ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 //			System.out.println(now);
 //			if(answer> Math.abs(now-N)+depth) {
 //				answer=Math.abs(now-N)+depth;
@@ -36,7 +36,7 @@
 //			return;
 //		}
 //		
-//		int tmp = Integer.valueOf(N_str.substring(depth, depth+1)); // °¢ ÀÚ¸® ¹öÆ°
+//		int tmp = Integer.valueOf(N_str.substring(depth, depth+1)); // ï¿½ï¿½ ï¿½Ú¸ï¿½ ï¿½ï¿½Æ°
 //		
 //		if(broken.contains(tmp)) {
 //			while(broken.contains(tmp)) {
@@ -69,32 +69,32 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class ÁöÇÑ¾ó_1107 {
+public class ì§€í•œì–¼_1107 {
 	static int answer,N,M;
 	static String N_str;
 	static Set<Integer> broken;
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		N = sc.nextInt(); // Ã£´Â ¹øÈ£
-		N_str =N+""; // ¹®ÀÚ ¸¸µé±â
-		M = sc.nextInt(); //°íÀå³­ ¼ö
-		broken = new HashSet<Integer>(); //°íÀå ¹øÈ£
+		N = sc.nextInt(); //
+		N_str =N+""; // 
+		M = sc.nextInt(); 
+		broken = new HashSet<Integer>(); //
 		for(int i=0; i<M; i++) {
 			broken.add(sc.nextInt());
 		}
 		
-		answer= Math.abs(N-100); // ÇöÀç À§Ä¡¿¡¼­ Ã£´Â °Å •û±â
+		answer= Math.abs(N-100); // 
 		dfs(100, 0, 0);
 		
 		System.out.println(answer);
 		
 	}
 	public static void dfs(int now,int depth, int cnt) {
-		if(now==N) { //°°À¸¸é ³ª°¡
+		if(now==N) { //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 			if(answer>cnt) answer=cnt;
 			return;
 		} 
-		if(N_str.length()==depth) { //ÀÚ¸®¼ö ²ËÃ¤¿ì¸é ³ª°¡
+		if(N_str.length()==depth) { 
 			if(answer> Math.abs(now-N)+depth) {
 				answer=Math.abs(now-N)+depth;
 			}
