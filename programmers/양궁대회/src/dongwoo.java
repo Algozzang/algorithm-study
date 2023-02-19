@@ -1,11 +1,6 @@
 import java.util.Arrays;
 
 public class dongwoo {
-	public static int maxDiff = -1;
-	public static final int n = 11;
-	public static int[] Apeach;
-	public static int[] answer;
-
 	public static void main(String[] args) {
 		Solution s1 = new Solution();
 		Solution s2 = new Solution();
