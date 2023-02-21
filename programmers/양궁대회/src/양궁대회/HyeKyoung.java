@@ -37,10 +37,11 @@ class Solution {
 					aScr+=10-i;
 				}
 			}
-			if(max<=rScr && aScr<rScr) {
-				shoot(size, rScr);
+			int diff=rScr-aScr;
+			if(max<=diff && aScr<rScr) {
+				shoot(size, diff);
 			}
-			return;
+			return; 
 		}
 		for(int i=start; i<11; i++) {
 			selected[cnt]=i;
@@ -48,7 +49,7 @@ class Solution {
 		}
 	}
 	
-	void shoot(int size, int scr) {
+	void shoot(int size, int diff) {
 		tmp =new int[11];
 		int cnt = n;
 		int idx = 0;
@@ -62,15 +63,15 @@ class Solution {
 				idx++;
 			}
 			if(idx == size) {
-				remain(tmp, cnt, size);
+				remain(tmp, cnt, size, diff);
 				possible = true;
-				max = scr;
+				max = diff;
 				return;
 			}
 		}
 	}
 	
-	void remain(int[] tmp, int cnt, int size) {
+	void remain(int[] tmp, int cnt, int size, int diff) {
 		int idx = size-1;
 		for(int i=10; i>=0; i--) {
 			if(cnt<=0) break;
@@ -81,7 +82,6 @@ class Solution {
 			
 			if(appeach[i]<tmp[i]+cnt) {
 				//어피치가 이겨야하는 라운드면
-				int c=appeach[i]-tmp[i];
 				tmp[i] = appeach[i];
 				cnt-=appeach[i]-tmp[i];
 			}
@@ -90,13 +90,19 @@ class Solution {
 				break;
 			}
 		}
-		
-		//뒤부터 체크해서 낮은 점수가 더 많으면
-		for(int i=10; i>=0; i--)
-			if(ryan[i]<tmp[i]) {
-				ryan = tmp.clone();
-				return;
+		if(diff == max) {
+			//뒤부터 체크해서 낮은 점수가 더 많으면
+			for(int i=10; i>=0; i--) {
+				if(ryan[i]<tmp[i]) {
+					ryan = tmp.clone();
+					return;
+				}
+				else if(ryan[i]>tmp[i]) return;
+                //이 조건 체크는 왜 안한거야
 			}
+		}
+		else if(diff>max) ryan = tmp.clone();
+        // 차이값 체크를 안해서 왕창 틀린거였다,,,,
 	}
 	
 	public int[] solution(int n, int[] info) {
