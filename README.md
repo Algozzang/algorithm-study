@@ -360,11 +360,11 @@
       <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92342">양궁대회 (2022 KAKAO)</a>
     </td>
     <td align="center">
-        <a href="">동우</a>
-        <a href="">민주</a>
-        <a href="">성훈</a>
-        <a href="">혜경</a>
-        <a href="">한얼</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/programmers/%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8C/src/dongwoo.java">동우</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/programmers/%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8C/src/Minju.java">민주</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/programmers/%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8C/src/Seonghun.java">성훈</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/programmers/%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8C/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/programmers/%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8C/src/JIHANEOL.java">한얼</a>
     </td>
   	<td align="center">DFS, Backtracking</td>
   </tr>
@@ -390,11 +390,11 @@
       <a href="https://www.acmicpc.net/problem/2667">단지번호붙이기</a>
     </td>
     <td align="center">
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8C/src/dongwoo.java">동우</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8C/src/Minju.java">민주</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8C/src/Seonghun.java">성훈</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8C/src/HyeKyoung.java">혜경</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8C/src/JIHANEOL.java">한얼</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/2667_%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0/src/dongwoo.java">동우</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/2667_%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0/src/Minju.java">민주</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/2667_%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0/src/Seonghun.java">성훈</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/2667_%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/2667_%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0/src/JIHANEOL.java">한얼</a>
     </td>
   	<td align="center">BFS, DFS</td>
   </tr>
