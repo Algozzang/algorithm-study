@@ -439,13 +439,13 @@
       <a href="https://www.acmicpc.net/problem/1700">멀티탭 스케줄링</a>
     </td>
     <td align="center">
-        <a href="">동우</a>
-        <a href="">민주</a>
-        <a href="">성훈</a>
-        <a href="">혜경</a>
-        <a href="">한얼</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1700_멀티탭스케줄링/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1700_멀티탭스케줄링/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1700_멀티탭스케줄링/src/Seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1700_멀티탭스케줄링/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1700_멀티탭스케줄링/src/JIHANEOL.java">한얼</a>
     </td>
-  	<td align="center">-</td>
+  	<td align="center">Greedy</td>
   </tr>
   <tr>
     <td align="center">[BOJ] 2565</td>
@@ -454,13 +454,13 @@
       <a href="https://www.acmicpc.net/problem/2565">전깃줄</a>
     </td>
     <td align="center">
-        <a href="">동우</a>
-        <a href="">민주</a>
-        <a href="">성훈</a>
-        <a href="">혜경</a>
-        <a href="">한얼</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2565_전깃줄/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2565_전깃줄/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2565_전깃줄/src/Seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2565_전깃줄/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2565_전깃줄/src/JIHANEOL.java">한얼</a>
     </td>
-  	<td align="center">-</td>
+  	<td align="center">DP, Backtracking</td>
   </tr>
   <tr>
     <td align="center">[BOJ] 7662</td>
@@ -469,13 +469,13 @@
       <a href="https://www.acmicpc.net/problem/7662">이중 우선순위 큐</a>
     </td>
     <td align="center">
-        <a href="">동우</a>
-        <a href="">민주</a>
-        <a href="">성훈</a>
-        <a href="">혜경</a>
-        <a href="">한얼</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/7662_이중우선순위큐/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/7662_이중우선순위큐/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/7662_이중우선순위큐/src/Seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/7662_이중우선순위큐/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/7662_이중우선순위큐/src/JIHANEOL.java">한얼</a>
     </td>
-  	<td align="center">-</td>
+  	<td align="center">Tree map</td>
   </tr>
   <tr>
     <td align="center">[BOJ] 10830</td>
@@ -484,13 +484,13 @@
       <a href="https://www.acmicpc.net/problem/10830">행렬 제곱</a>
     </td>
     <td align="center">
-        <a href="">동우</a>
-        <a href="">민주</a>
-        <a href="">성훈</a>
-        <a href="">혜경</a>
-        <a href="">한얼</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/10830_행렬제곱/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/10830_행렬제곱/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/10830_행렬제곱/src/Seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/10830_행렬제곱/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/10830_행렬제곱/src/JIHANEOL.java">한얼</a>
     </td>
-  	<td align="center">-</td>
+  	<td align="center">Divide and conquer</td>
   </tr>
   <tr>
     <td align="center">[BOJ] 17069</td>
@@ -499,11 +499,90 @@
       <a href="https://www.acmicpc.net/problem/17069">파이프 옮기기 2</a>
     </td>
     <td align="center">
-        <a href="">동우</a>
-        <a href="">민주</a>
-        <a href="">성훈</a>
-        <a href="">혜경</a>
-        <a href="">한얼</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/17069_파이프옮기기2/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/17069_파이프옮기기2/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/17069_파이프옮기기2/src/Seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/17069_파이프옮기기2/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/17069_파이프옮기기2/src/JIHANEOL.java">한얼</a>
+    </td>
+  	<td align="center">DP</td>
+  </tr>
+
+  <tr>
+    <td align="center" colspan="4">Week 7</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 2042</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/3352bbd8-08b1-4e5d-a4e3-f27f88c2501c/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/2042">구간 합 구하기</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 2098</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/3352bbd8-08b1-4e5d-a4e3-f27f88c2501c/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/2098">외판원 순회</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 10775</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/3c50c0d0-ce09-403c-88bb-f1b08420a697/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/10775">공항</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 14502</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/ce7dcad5-ffaa-4d9b-9a5c-f91ff1969c41/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/14502">연구소</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 14719</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/7e4130db-cc39-4482-8377-f7f6b56749e9/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/14719">빗물</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
     </td>
   	<td align="center">-</td>
   </tr>
