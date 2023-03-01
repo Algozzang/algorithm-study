@@ -3,7 +3,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Queue;
 import java.util.StringTokenizer;
@@ -53,7 +52,7 @@ public class dongwoo {
 						continue;
 					}
 					map[point3[0]][point3[1]] = 3;
-					checkSafetyArea(clone(map));					
+					checkSafetyArea(clone(map));
 					map[point3[0]][point3[1]] = 0;
 				}
 				map[point2[0]][point2[1]] = 0;
@@ -79,15 +78,15 @@ public class dongwoo {
 		for (int[] virus : viruses) {
 			queue.add(virus);
 		}
-		int[] di = {0,1,0,-1};
-		int[] dj = {1,0,-1,0};
+		int[] di = { 0, 1, 0, -1 };
+		int[] dj = { 1, 0, -1, 0 };
 		int infectedArea = 0;
 		while (!queue.isEmpty()) {
 			int[] now = queue.poll();
 			map[now[0]][now[1]] = 2;
 			for (int i = 0; i < 4; i++) {
-				int newI  = now[0] + di[i];
-				int newJ  = now[1] + dj[i];
+				int newI = now[0] + di[i];
+				int newJ = now[1] + dj[i];
 				int val;
 				try {
 					val = map[newI][newJ];
@@ -95,13 +94,13 @@ public class dongwoo {
 					continue;
 				}
 				if (val == 0) {
-					queue.add(new int[] {newI, newJ});	
+					queue.add(new int[] { newI, newJ });
 					map[newI][newJ] = 2;
 					infectedArea++;
 				}
 			}
 		}
-		maxSafeArea = Math.max(maxSafeArea, originalArea-infectedArea);
+		maxSafeArea = Math.max(maxSafeArea, originalArea - infectedArea);
 	}
 
 	private static int[] numberToIJ(int number) {
