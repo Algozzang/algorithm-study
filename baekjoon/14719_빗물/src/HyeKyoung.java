@@ -25,7 +25,8 @@ public class HyeKyoung {
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int H = Integer.parseInt(st.nextToken());
 		int W = Integer.parseInt(st.nextToken());
-		int visitedAll = (1 << W) - 1, visited = 0, sum = 0;
+		boolean[] visited = new boolean[W];
+		int sum = 0;
 		int[] blocks = new int[W];
 		Height[] block = new Height[W];
 
@@ -49,16 +50,14 @@ public class HyeKyoung {
 				left = block[i].idx;
 			}
 			
-			visited |= 1<<left;
-			visited |= 1<<right;
+			visited[left] = true;
+			visited[right] = true;
 			
 			for(int j = left + 1; j<right; j++) {
-				int mask = 1<<j;
-				if((visited & mask) == mask) continue;
+				if(visited[j]) continue;
 				sum+=height-blocks[j];
-				visited |= mask;
+				visited[j] = true;
 			}
-			if(visited == visitedAll) break;
 		}
 		System.out.println(sum);
 	}
