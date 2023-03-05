@@ -1,74 +1,65 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
+//빗물
 public class HyeKyoung {
-	static long[] numbers;
-	static long[] tree;
+	static class Height implements Comparable<Height>{
+		int h, idx;
 
+		public Height(int h, int idx) {
+			super();
+			this.h = h;
+			this.idx = idx;
+		}
+		@Override
+		public int compareTo(Height o) {
+			return o.h - this.h;
+		}
+	}
+	
 	public static void main(String args[]) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		StringBuilder sb = new StringBuilder();
-		int N = Integer.parseInt(st.nextToken());
-		int M = Integer.parseInt(st.nextToken());
-		int K = Integer.parseInt(st.nextToken());
-		int a, b;
-		long c;
+		int H = Integer.parseInt(st.nextToken());
+		int W = Integer.parseInt(st.nextToken());
+		int visitedAll = (1 << W) - 1, visited = 0, sum = 0;
+		int[] blocks = new int[W];
+		Height[] block = new Height[W];
 
-		tree = new long[4 * N];
-		numbers = new long[N + 1];
-
-		for (int i = 1; i <= N; i++) {
-			numbers[i] = Long.parseLong(br.readLine());
+		st = new StringTokenizer(br.readLine());
+		for(int i=0; i<W; i++) {
+			int h = Integer.parseInt(st.nextToken());
+			block[i] = new Height(h, i);
+			blocks[i] = h;
 		}
-		setTree(1, N, 1);
-		for (int i = 0; i < K + M; i++) {
-			st = new StringTokenizer(br.readLine());
-			a = Integer.parseInt(st.nextToken());
-			b = Integer.parseInt(st.nextToken());
-			c = Long.parseLong(st.nextToken());
-			if (a == 1) {
-				changeNum(b, c - numbers[b], 1, N, 1);
-				numbers[b] = c;
+		Arrays.sort(block);
+
+		for(int i=1; i<W; i++) {
+			int left, right;
+			int height = block[i].h;
+			if(block[i-1].idx < block[i].idx) {
+				left = block[i-1].idx;
+				right = block[i].idx;
 			}
-			else sb.append(getSum(b, (int) c, 1, N, 1) + "\n");
+			else {
+				right = block[i-1].idx;
+				left = block[i].idx;
+			}
+			
+			visited |= 1<<left;
+			visited |= 1<<right;
+			
+			for(int j = left + 1; j<right; j++) {
+				int mask = 1<<j;
+				if((visited & mask) == mask) continue;
+				sum+=height-blocks[j];
+				visited |= mask;
+			}
+			if(visited == visitedAll) break;
 		}
-		System.out.println(sb.toString());
-	}
-
-	static void setTree(int start, int end, int idx) {
-		if (start == end) {
-			tree[idx] = numbers[start];
-			return;
-		}
-		int mid = (start + end) / 2;
-		setTree(start, mid, 2 * idx);
-		setTree(mid + 1, end, 2 * idx + 1);
-
-		tree[idx] = tree[2 * idx] + tree[2 * idx + 1];
-	}
-
-	static void changeNum(int a, long diff, int start, int end, int idx) {
-		// 구간합도 변경
-		tree[idx] += diff;
-		if (start == end) return;
-
-		int mid = (start + end) / 2;
-		if (a >= start && a <= mid) changeNum(a, diff, start, mid, 2 * idx);
-		else if (a >= mid + 1 && a <= end) changeNum(a, diff, mid + 1, end, 2 * idx + 1);
-	}
-
-	// 구간 a-b가 범위 내에 있는지 탐색
-	static long getSum(int a, int b, int start, int end, int idx) {
-		if (a > end || b < start) return 0;
-		if (a <= start && b >= end) return tree[idx];
-
-		int mid = (start + end) / 2;
-		long left = getSum(a, b, start, mid, 2 * idx);
-		long right = getSum(a, b, mid + 1, end, 2 * idx + 1);
-		
-		return left + right;
+		System.out.println(sum);
 	}
 }
