@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Seonghun {
 
 	static int N, M; // 미로 크기
 	static int[][] maze; // 미로
