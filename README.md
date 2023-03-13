@@ -597,14 +597,14 @@
       <a href="https://www.acmicpc.net/problem/1261">알고스팟</a>
     </td>
     <td align="center">
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1261_알고스팟/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1261_알고스팟/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1261_알고스팟/src/Seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1261_알고스팟/src/Hyekyoung.java">혜경</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1261_알고스팟/src/JIHANEOL.java">한얼</a>
     </td>
-  	<td align="center">-</td>
+  	<td align="center">Graph, BFS, Dijkstra</td>
   </tr>
   <tr>
     <td align="center">[BOJ] 2206</td>
@@ -613,14 +613,14 @@
       <a href="https://www.acmicpc.net/problem/2206">벽 부수고 이동하기</a>
     </td>
     <td align="center">
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2206_벽부수고이동하기/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2206_벽부수고이동하기/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2206_벽부수고이동하기/src/Seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2206_벽부수고이동하기/src/Hyekyoung.java">혜경</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2206_벽부수고이동하기/src/JIHANEOL.java">한얼</a>
     </td>
-  	<td align="center">-</td>
+  	<td align="center">Graph, BFS</td>
   </tr>
   <tr>
     <td align="center">[BOJ] 2638</td>
@@ -629,14 +629,14 @@
       <a href="https://www.acmicpc.net/problem/2638">치즈</a>
     </td>
     <td align="center">
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2638_치즈/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2638_치즈/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2638_치즈/src/Seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2638_치즈/src/Hyekyoung.java">혜경</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2638_치즈/src/JIHANEOL.java">한얼</a>
     </td>
-  	<td align="center">-</td>
+  	<td align="center">Graph, BFS</td>
   </tr>
   <tr>
     <td align="center">[BOJ] 9077</td>
@@ -645,14 +645,14 @@
       <a href="https://www.acmicpc.net/problem/9077">지뢰제거</a>
     </td>
     <td align="center">
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/9077_지뢰제거/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/9077_지뢰제거/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/9077_지뢰제거/src/Seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/9077_지뢰제거/src/Hyekyoung.java">혜경</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/9077_지뢰제거/src/JIHANEOL.java">한얼</a>
     </td>
-  	<td align="center">-</td>
+  	<td align="center">Prefix sum</td>
   </tr>
   <tr>
     <td align="center">[BOJ] 12904</td>
@@ -661,14 +661,14 @@
       <a href="https://www.acmicpc.net/problem/12904">A와 B</a>
     </td>
     <td align="center">
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/12904_A와B/src/dongwoo.java">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/12904_A와B/src/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/12904_A와B/src/Seonghun.java">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/12904_A와B/src/Hyekyoung.java">혜경</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/12904_A와B/src/JIHANEOL.java">한얼</a>
     </td>
-  	<td align="center">-</td>
+  	<td align="center">String</td>
   </tr>
   
 </table>
