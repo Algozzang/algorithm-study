@@ -601,7 +601,6 @@
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1261_알고스팟/src/Minju.java">민주</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1261_알고스팟/src/Seonghun.java">성훈</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1261_알고스팟/src/Hyekyoung.java">혜경</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/1261_알고스팟/src/JIHANEOL.java">한얼</a>
     </td>
   	<td align="center">Graph, BFS, Dijkstra</td>
@@ -617,7 +616,6 @@
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2206_벽부수고이동하기/src/Minju.java">민주</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2206_벽부수고이동하기/src/Seonghun.java">성훈</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2206_벽부수고이동하기/src/Hyekyoung.java">혜경</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2206_벽부수고이동하기/src/JIHANEOL.java">한얼</a>
     </td>
   	<td align="center">Graph, BFS</td>
@@ -633,7 +631,6 @@
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2638_치즈/src/Minju.java">민주</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2638_치즈/src/Seonghun.java">성훈</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2638_치즈/src/Hyekyoung.java">혜경</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2638_치즈/src/JIHANEOL.java">한얼</a>
     </td>
   	<td align="center">Graph, BFS</td>
@@ -649,7 +646,6 @@
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/9077_지뢰제거/src/Minju.java">민주</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/9077_지뢰제거/src/Seonghun.java">성훈</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/9077_지뢰제거/src/Hyekyoung.java">혜경</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/9077_지뢰제거/src/JIHANEOL.java">한얼</a>
     </td>
   	<td align="center">Prefix sum</td>
@@ -665,10 +661,108 @@
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/12904_A와B/src/Minju.java">민주</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/12904_A와B/src/Seonghun.java">성훈</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/12904_A와B/src/Hyekyoung.java">혜경</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/12904_A와B/src/JIHANEOL.java">한얼</a>
     </td>
   	<td align="center">String</td>
+  </tr>
+
+  <tr>
+    <td align="center" colspan="4">Week 9</td>
+  </tr>
+  <tr>
+    <td align="center">[PRO] 42627</td>
+    <td>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42627">디스크 컨트롤러</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 2342</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/0e9f3164-d764-42cf-951f-ec3e3aa08fff/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/2342">Dance Dance Revolution</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 7432</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/3c50c0d0-ce09-403c-88bb-f1b08420a697/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/7432">디스크 트리</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 11726</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/14df9c6d-fea9-4fb0-b349-4ad0d7acf02a/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/11726">2×n 타일링</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 20437</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/7e4130db-cc39-4482-8377-f7f6b56749e9/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/20437">문자열 게임 2</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 21317</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/2f96f32c-c9f6-4d81-bba4-ee484c2300e2/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/21317">징검다리 건너기</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+    </td>
+  	<td align="center">-</td>
   </tr>
   
 </table>
