@@ -801,8 +801,7 @@
   <tr>
     <td align="center">[BOJ] 9935</td>
     <td>
-      <img src="https://velog.velcdn.com/images/knavoid/post/ce7dcad5-ffaa-4d9b-9a5c-f91ff1969c41/image.png
-" style="width:12px; height:15px;">
+      <img src="https://velog.velcdn.com/images/knavoid/post/ce7dcad5-ffaa-4d9b-9a5c-f91ff1969c41/image.png" style="width:12px; height:15px;">
       <a href="https://www.acmicpc.net/problem/9935">문자열 폭발</a>
     </td>
     <td align="center">
