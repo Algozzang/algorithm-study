@@ -12,6 +12,7 @@ public class Hyekyoung {
 		StringTokenizer st;
 		int[][] square = new int[10001][10001];
 		for(int i=0; i<T; i++) {
+			max = 0;
 			N = Integer.parseInt(br.readLine());
 			for(int j=0; j<=10000; j++) Arrays.fill(square[j], 0);
 			for(int j=0; j<N; j++) {
