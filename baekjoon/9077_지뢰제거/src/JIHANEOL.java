@@ -10,7 +10,8 @@ public class JIHANEOL {
         int T = Integer.parseInt(br.readLine());
         for (int tc = 0; tc < T; tc++) {
             short[][] map = new short[10001][10001];
-            int N = Integer.parseInt(br.readLine());
+            String[] si =  br.readLine().split(" ");
+            int N =  Integer.parseInt(si[0]); 
             int max = 0;
             for (int i = 0; i < N; i++) {
                 StringTokenizer st = new StringTokenizer(br.readLine());
