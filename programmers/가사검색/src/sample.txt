@@ -1,0 +1,19 @@
+import java.util.Arrays;
+
+public class sample {
+	public static void main(String[] args) {
+        Solution s1 = new Solution();
+        String[] words = new String[] {"frodo", "front", "frost", "frozen", "frame", "kakao"};
+        String[] queries = new String[] {"fro??", "????o", "fr???", "fro???", "pro?"};
+        int[] s1Result = s1.solution(words, queries);
+        System.out.println(Arrays.toString(s1Result));
+        // expected result = [3, 2, 4, 1, 0];
+    }
+}
+
+class Solution {
+    public int[] solution(String[] words, String[] queries) {
+        int[] answer = {};
+        return answer;
+    }
+}
