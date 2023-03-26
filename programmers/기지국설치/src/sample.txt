@@ -1,0 +1,22 @@
+
+class sample {
+	public static void main(String[] args) {
+		Solution s1 = new Solution();
+		int n = 11;
+		int[] stations = new int[] {4, 11};
+		int w = 1;
+		int s1Result = s1.solution(n, stations, w);
+		System.out.println(s1Result);
+		// expected result = 3;
+	}
+}
+
+class Solution {
+    public int solution(int n, int[] stations, int w) {
+        int answer = 0;
+
+        System.out.println("Hello Java");
+
+        return answer;
+    }
+}
