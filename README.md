@@ -815,6 +815,22 @@
   	<td align="center">-</td>
   </tr>
   <tr>
+    <td align="center">[BOJ] 12015</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/3c50c0d0-ce09-403c-88bb-f1b08420a697/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/12015">가장 긴 증가하는 부분 수열 2</a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
     <td align="center">[BOJ] 19623</td>
     <td>
       <img src="https://velog.velcdn.com/images/knavoid/post/0e9f3164-d764-42cf-951f-ec3e3aa08fff/image.png" style="width:12px; height:15px;">
@@ -835,22 +851,6 @@
     <td>
       <img src="https://velog.velcdn.com/images/knavoid/post/ce7dcad5-ffaa-4d9b-9a5c-f91ff1969c41/image.png" style="width:12px; height:15px;">
       <a href="https://www.acmicpc.net/problem/20056">마법사 상어와 파이어볼</a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">민주</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">성훈</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">혜경</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">하린</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/">한얼</a>
-    </td>
-  	<td align="center">-</td>
-  </tr>
-  <tr>
-    <td align="center">[BOJ] 20555</td>
-    <td>
-      <img src="https://velog.velcdn.com/images/knavoid/post/3c50c0d0-ce09-403c-88bb-f1b08420a697/image.png" style="width:12px; height:15px;">
-      <a href="https://www.acmicpc.net/problem/20555">타자연습</a>
     </td>
     <td align="center">
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/">동우</a>
