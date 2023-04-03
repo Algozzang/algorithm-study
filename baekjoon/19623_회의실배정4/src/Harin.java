@@ -1,5 +1,3 @@
-package BOJ;
-
 import java.util.*;
 import java.io.*;
 
@@ -37,8 +35,14 @@ public class Harin {
         }
 
         Collections.sort(list);
+
         int[] dp = new int[n];
         dp[n-1] = list.get(n-1).people;
+
+        /*
+        * dp배열 : i ~ n-1 회의의 최대 인원
+        * 회의 i를 선택했을 때 : 회의 i의 인원 + 회의 i의 끝나는 시간보다 큰 시간 중 가장 작은 시간 회의의 인원
+        * 회의 i를 선택하지 않았을 때 : i+1 ~ n-1 회의의 최대 인원*/
 
         for(int i=n-2; i>=0; i--){
             int key = list.get(i).end;
@@ -54,6 +58,7 @@ public class Harin {
     }
 
     private static int binarySerach(List<Meeting> list, int key) {
+        /*key보다 큰 값 중 가장 작은 값의 인덱스를 반환한다*/
         int low = 0;
         int high = list.size();
 
