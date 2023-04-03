@@ -43,6 +43,7 @@ public class Hyekyoung {
 	static void move(int cnt) {
 		Fireball ball;
 		if (cnt == K) {
+			//k번 후에 질량 합 구하기
 			int mSum=0;
 			while(!queue.isEmpty()) {
 				ball = queue.poll();
@@ -58,12 +59,13 @@ public class Hyekyoung {
 			d = ball.d;
 			nr = ball.r + dr[d] * (s % N);
 			nc = ball.c + dc[d] * (s % N);
-
+			//n번열과 n번행과 연결돼있는,,,머시기
 			if (nr > N) nr = (nr-1) % N + 1;
 			else if (nr <= 0) nr = N - Math.abs(nr);
 			if (nc > N) nc = (nc-1) % N + 1;
 			else if (nc <= 0) nc = N - Math.abs(nc);
 			num = N * (nr - 1) + nc;
+			// 자리 번호 구하고 set에 넣기(set에서 중복제거)
 			numSet.add(num);
 			
 			fireballs[num].add(new Fireball(nr, nc, m, s, d));
@@ -101,6 +103,7 @@ ans:33
 		int n;
 		Iterator<Integer> it = numSet.iterator();
 		while (it.hasNext()) {
+			//set에 들어있는 번호 인덱스에 접근해서 몇갠지 보고 합치기
 			n = it.next();
 			Fireball ball = fireballs[n].get(0);
 			if (fireballs[n].size() > 1) {
@@ -109,6 +112,7 @@ ans:33
 				int dir = fireballs[n].get(0).d % 2;
 				for (Fireball f : fireballs[n]) {
 					if (dir != f.d % 2) {
+						//다 짝순지 홀순지,,검사
 						same = false;
 					}
 					mSum+=f.m;
