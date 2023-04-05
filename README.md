@@ -405,11 +405,11 @@
       <a href="https://www.acmicpc.net/problem/10164">격자상의 경로</a>
     </td>
     <td align="center">
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2667_%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0/src/dongwoo.java">동우</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2667_%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0/src/Minju.java">민주</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2667_%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0/src/Seonghun.java">성훈</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2667_%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0/src/HyeKyoung.java">혜경</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/2667_%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0/src/JIHANEOL.java">한얼</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/10164_%EA%B2%A9%EC%9E%90%EC%83%81%EC%9D%98%EA%B2%BD%EB%A1%9C/src/dongwoo.java">동우</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/10164_%EA%B2%A9%EC%9E%90%EC%83%81%EC%9D%98%EA%B2%BD%EB%A1%9C/src/Minju.java">민주</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/10164_%EA%B2%A9%EC%9E%90%EC%83%81%EC%9D%98%EA%B2%BD%EB%A1%9C/src/Seonghun.java">성훈</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/10164_%EA%B2%A9%EC%9E%90%EC%83%81%EC%9D%98%EA%B2%BD%EB%A1%9C/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/10164_%EA%B2%A9%EC%9E%90%EC%83%81%EC%9D%98%EA%B2%BD%EB%A1%9C/src/JIHANEOL.java">한얼</a>
     </td>
   	<td align="center">DP, DFS</td>
   </tr>
@@ -566,7 +566,7 @@
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/14502_연구소/src/dongwoo.java">동우</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/14502_연구소/src/Minju.java">민주</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/14502_연구소/src/Seonghun.java">성훈</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/14502_연구소/src/HyeKyoung.java">혜경</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/14502_연구소/src/Hyekyoung.java">혜경</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/baekjoon/14502_연구소/src/JIHANEOL.java">한얼</a>
     </td>
   	<td align="center">Brute force, BFS</td>
@@ -679,7 +679,7 @@
         <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/programmers/%EB%94%94%EC%8A%A4%ED%81%AC%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC/src/Minju.java">민주</a>
         <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/programmers/%EB%94%94%EC%8A%A4%ED%81%AC%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC/src/Seonghun.java">성훈</a>
         <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/programmers/%EB%94%94%EC%8A%A4%ED%81%AC%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC/src/HyeKyoung.java">혜경</a>
-        <a href="#">하린</a>
+        하린
         <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/programmers/%EB%94%94%EC%8A%A4%ED%81%AC%EC%BB%A8%ED%8A%B8%EB%A1%A4%EB%9F%AC/src/JIHANEOL.java">한얼</a>
     </td>
   	<td align="center">Priority queue</td>
@@ -694,8 +694,8 @@
         <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/2342_DanceDanceRevolution/src/dongwoo.java">동우</a>
         <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/2342_DanceDanceRevolution/src/Minju.java">민주</a>
         <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/2342_DanceDanceRevolution/src/Seonghun.java">성훈</a>
-        <a href="#">혜경</a>
-        <a href="#">하린</a>
+        혜경
+        하린
         <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/2342_DanceDanceRevolution/src/JIHANEOL.java">한얼</a>
     </td>
   	<td align="center">Dynamic programming</td>
@@ -742,7 +742,7 @@
         <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/20437_%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B2%8C%EC%9E%842/src/dongwoo.java">동우</a>
         <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/20437_%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B2%8C%EC%9E%842/src/Main.java">민주</a>
         <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/20437_%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B2%8C%EC%9E%842/src/Seonghun.java">성훈</a>
-        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/20437_%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B2%8C%EC%9E%842/src/Harin.java">혜경</a>
+        <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/20437_%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B2%8C%EC%9E%842/src/Hyekyoung.java">혜경</a>
         <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/20437_%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B2%8C%EC%9E%842/src/Harin.java">하린</a>
         <a href="https://github.com/knavoid/ssafy-algorithm-study/blob/main/baekjoon/20437_%EB%AC%B8%EC%9E%90%EC%97%B4%EA%B2%8C%EC%9E%842/src/JIHANEOL.java">한얼</a>
     </td>
@@ -781,7 +781,7 @@
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/기지국설치/src/Harin.java">하린</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/기지국설치/src/JIHANEOL.java">한얼</a>
     </td>
-  	<td align="center">-</td>
+  	<td align="center">Greedy</td>
   </tr>
   <tr>
     <td align="center">[PRO] 60060</td>
