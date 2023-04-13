@@ -960,5 +960,104 @@
     </td>
   	<td align="center">Implementation</td>
   </tr>
+
+  <tr>
+    <td align="center" colspan="4">Week 12</td>
+  </tr>
+  <tr>
+    <td align="center">[PRO] 42579</td>
+    <td>
+      <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42579">베스트앨범</a>
+    </td>
+    <td align="center">
+      동우
+      민주
+      성훈
+      혜경
+      하린
+      한얼
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 1379</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/0e9f3164-d764-42cf-951f-ec3e3aa08fff/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/1379">강의실 2</a>
+    </td>
+    <td align="center">
+      동우
+      민주
+      성훈
+      혜경
+      하린
+      한얼
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 1863</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/7e4130db-cc39-4482-8377-f7f6b56749e9/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/1863">스카이라인 쉬운거</a>
+    </td>
+    <td align="center">
+      동우
+      민주
+      성훈
+      혜경
+      하린
+      한얼
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 2056</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/ce7dcad5-ffaa-4d9b-9a5c-f91ff1969c41/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/2056">작업</a>
+    </td>
+    <td align="center">
+      동우
+      민주
+      성훈
+      혜경
+      하린
+      한얼
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 2812</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/0e9f3164-d764-42cf-951f-ec3e3aa08fff/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/2812">크게 만들기</a>
+    </td>
+    <td align="center">
+      동우
+      민주
+      성훈
+      혜경
+      하린
+      한얼
+    </td>
+  	<td align="center">-</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 14698</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/ce7dcad5-ffaa-4d9b-9a5c-f91ff1969c41/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/14698">전생했더니 슬라임 연구자였던 건에 대하여 (Hard)</a>
+    </td>
+    <td align="center">
+      동우
+      민주
+      성훈
+      혜경
+      하린
+      한얼
+    </td>
+  	<td align="center">-</td>
+  </tr>
   
 </table>
