@@ -775,7 +775,7 @@
     </td>
     <td align="center">
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/기지국설치/src/dongwoo.java">동우</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/기지국설치/src/기지국설치/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/기지국설치/src/Minju.java">민주</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/기지국설치/src/Seonghun.java">성훈</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/기지국설치/src/Hyekyoung.java">혜경</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/기지국설치/src/Harin.java">하린</a>
@@ -790,7 +790,7 @@
     </td>
     <td align="center">
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/가사검색/src/dongwoo.java">동우</a>
-        <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/가사검색/src/가사검색/Minju.java">민주</a>
+        <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/가사검색/src/Minju.java">민주</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/가사검색/src/Seonghun.java">성훈</a>
         <a href="https://github.com/Algozzang/algorithm-study/blob/main/programmers/가사검색/src/Hyekyoung.java">혜경</a>
         하린
@@ -869,7 +869,7 @@
   <tr>
     <td align="center">[SWEA] 2382</td>
     <td>
-      <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl">미생물 격리</a>
+      [Test] <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl">미생물 격리</a>
     </td>
     <td align="center">
         -
@@ -879,7 +879,7 @@
   <tr>
     <td align="center">[SWEA] 4193</td>
     <td>
-      <a href="https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWKaG6_6AGQDFARV">수영대회 결승전</a>
+      [D4] <a href="https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWKaG6_6AGQDFARV">수영대회 결승전</a>
     </td>
     <td align="center">
         -
