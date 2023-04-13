@@ -1,0 +1,21 @@
+import java.util.Arrays;
+
+public class dongwoo {
+	public static void main(String[] args) {
+		String[] genres = new String[] { "classic", "pop", "classic", "classic", "pop" };
+		int[] plays = new int[] { 500, 600, 150, 800, 2500 };
+		Solution s1 = new Solution();
+		if (Arrays.equals(new int[] {4,1,3,0}, s1.solution(genres, plays))) {
+			System.out.println("통과");
+		} else {
+			System.out.println("땡");
+		}
+	}
+}
+
+class Solution {
+	public int[] solution(String[] genres, int[] plays) {
+		int[] answer = {};
+		return answer;
+	}
+}
