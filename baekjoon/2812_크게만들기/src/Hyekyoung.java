@@ -19,11 +19,10 @@ public class Hyekyoung {
 			}
 			queue.add(num);
 		}
-
-		for (int i=0; i<size; i++) {
+		// k값이 바껴서 n-k로 하면 안됨,,,
+		for (int i = 0; i < size; i++) {
 			sb.append(queue.pollFirst());
 		}
 		System.out.println(sb.toString());
 	}
 }
-
