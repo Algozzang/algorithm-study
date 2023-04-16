@@ -7,10 +7,9 @@ import java.util.Map;
 
 public class Hyekyoung {
 	public static void main(String[] args) {
-		String[] genres = new String[] {"pop", "pop", "pop", "rap", "rap" };
-		int[] plays = new int[] { 45, 50, 40, 60, 70 };
+		String[] genres = new String[] { "classic", "pop", "classic", "classic", "pop" };
+		int[] plays = new int[] { 500, 600, 150, 800, 2500 };
 		Solution s1 = new Solution();
-		System.out.println(Arrays.toString(s1.solution(genres, plays)));
 		if (Arrays.equals(new int[] {4,1,3,0}, s1.solution(genres, plays))) {
 			System.out.println("통과");
 		} else {
@@ -62,13 +61,12 @@ class Solution {
 		for(int i=0; i<size; i++) {
 			if(!playCnt.containsKey(genres[i])) {
 				genre.put(genres[i], new ArrayList<>());
-				playCnt.put(genres[i], plays[i]);
+				playCnt.put(genres[i], 0);
 			}
 			genre.get(genres[i]).add(new Song(plays[i], i));
 			playCnt.put(genres[i], playCnt.get(genres[i])+plays[i]);
 		}
 		for (String s : playCnt.keySet()) {
-			System.out.println(s+" "+playCnt.get(s));
 			gList.add(new Genre(s, playCnt.get(s)));
 		}
 		
