@@ -24,7 +24,7 @@ public class Hyekyoung {
 			time[i] = max + input;
 			result = Math.max(result, time[i]);
 		}
-		System.out.println(time[N]);
+		System.out.println(result);
 	}
 
 }
