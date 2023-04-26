@@ -1059,5 +1059,104 @@
     </td>
   	<td align="center">Priority Queue</td>
   </tr>
+
+  <tr>
+    <td align="center" colspan="4">Week 13</td>
+  </tr>
+  <tr>
+    <td align="center">[PRO] 42861</td>
+    <td>
+      [Lv.3] <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42861">섬 연결하기</a>
+    </td>
+    <td align="center">
+      <a href="">동우</a>
+      <a href="">민주</a>
+      <a href="">성훈</a>
+      <a href="">혜경</a>
+      <a href="">하린</a>
+      <a href="">한얼</a>
+    </td>
+  	<td align="center">Greedy</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 2904</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/0e9f3164-d764-42cf-951f-ec3e3aa08fff/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/2904">수학은 너무 쉬워</a>
+    </td>
+    <td align="center">
+      <a href="">동우</a>
+      <a href="">민주</a>
+      <a href="">성훈</a>
+      <a href="">혜경</a>
+      <a href="">하린</a>
+      <a href="">한얼</a>
+    </td>
+  	<td align="center">Math, Sieve of Eratosthenes</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 8980</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/3c50c0d0-ce09-403c-88bb-f1b08420a697/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/8980">택배</a>
+    </td>
+    <td align="center">
+      <a href="">동우</a>
+      <a href="">민주</a>
+      <a href="">성훈</a>
+      <a href="">혜경</a>
+      <a href="">하린</a>
+      <a href="">한얼</a>
+    </td>
+  	<td align="center">Greedy</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 11967</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/3c50c0d0-ce09-403c-88bb-f1b08420a697/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/11967">불켜기</a>
+    </td>
+    <td align="center">
+      <a href="">동우</a>
+      <a href="">민주</a>
+      <a href="">성훈</a>
+      <a href="">혜경</a>
+      <a href="">하린</a>
+      <a href="">한얼</a>
+    </td>
+  	<td align="center">Breadth First Search</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 14908</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/3352bbd8-08b1-4e5d-a4e3-f27f88c2501c/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/14908">구두 수선공</a>
+    </td>
+    <td align="center">
+      <a href="">동우</a>
+      <a href="">민주</a>
+      <a href="">성훈</a>
+      <a href="">혜경</a>
+      <a href="">하린</a>
+      <a href="">한얼</a>
+    </td>
+  	<td align="center">Greedy</td>
+  </tr>
+  <tr>
+    <td align="center">[BOJ] 14927</td>
+    <td>
+      <img src="https://velog.velcdn.com/images/knavoid/post/62bc0f18-31e5-47c3-920e-bc53b1689b51/image.png" style="width:12px; height:15px;">
+      <a href="https://www.acmicpc.net/problem/14927">전구 끄기</a>
+    </td>
+    <td align="center">
+      <a href="">동우</a>
+      <a href="">민주</a>
+      <a href="">성훈</a>
+      <a href="">혜경</a>
+      <a href="">하린</a>
+      <a href="">한얼</a>
+    </td>
+  	<td align="center">Greedy, Bit Masking</td>
+  </tr>
   
 </table>
